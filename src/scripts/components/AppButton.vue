@@ -4,20 +4,23 @@
 
 <script>
 const colors = {
-  blue: { background: '#00ADEF', text: '#fff' },
+  blue: { background: "#00ADEF", text: "#fff" },
 };
 
 export default {
   props: {
-    color: { type: String, default: 'blue' },
+    color: { type: String, default: "blue" },
   },
 
   computed: {
-    style () {
-      return { background: colors[this.color].background, color: colors[this.color].text };
-    }
-  }
-}
+    style() {
+      return {
+        background: colors[this.color].background,
+        color: colors[this.color].text,
+      };
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -32,7 +35,7 @@ a {
   text-align: center;
   border: none;
   border-radius: none;
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   text-decoration: none;
   box-sizing: border-box;
 }

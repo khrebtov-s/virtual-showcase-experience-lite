@@ -102,58 +102,53 @@
 </template>
 
 <script>
-import { Form, Field } from 'vee-validate';
-import * as Yup from 'yup';
+import { Form, Field } from "vee-validate";
+import * as Yup from "yup";
 
 export default {
   components: {
     Form,
     Field,
-    },
+  },
   setup() {
     const schema = Yup.object().shape({
-      firstName: Yup.string()
-        .required('First Name is required'),
-      lastName: Yup.string()
-        .required('Last name is required'),
+      firstName: Yup.string().required("First Name is required"),
+      lastName: Yup.string().required("Last name is required"),
       email: Yup.string()
-        .required('Email is required')
-        .email('Email is invalid'),
-      companyName: Yup.string()
-        .required('Company Name is required'),
-      jobRoll: Yup.string()
-        .required('Job Roll is required'),
-      phone: Yup.string()
-        .required('Phone is required'),
-      country: Yup.string()
-        .required('Country Region is required')
+        .required("Email is required")
+        .email("Email is invalid"),
+      companyName: Yup.string().required("Company Name is required"),
+      jobRoll: Yup.string().required("Job Roll is required"),
+      phone: Yup.string().required("Phone is required"),
+      country: Yup.string().required("Country Region is required"),
     });
 
-      const submit = values => {
-        return console.log(values);
-      }
+    const submit = (values) => {
+      return console.log(values);
+    };
 
-      return {
-        schema,
-        submit
-      };
-    }
-}
+    return {
+      schema,
+      submit,
+    };
+  },
+};
 </script>
 
-<style  lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+<style lang="scss" scoped>
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
 .content-wrapper {
   display: flex;
   min-height: 100vh;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 
   section {
-  width: 100%;
-  margin-top: 60px;
-  position: relative;
-  box-sizing: border-box;
-  display: block;
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
 
     .container {
       display: flex;
@@ -176,8 +171,8 @@ export default {
 
           & span {
             color: #000;
-            font-size: 35px; 
-              font-weight: 300;
+            font-size: 35px;
+            font-weight: 300;
 
             @media screen and (min-width: 1200px) {
               font-size: 33px;
@@ -209,7 +204,7 @@ export default {
             .row {
               margin: 5px auto;
               width: 100%;
-                display: flex;
+              display: flex;
 
               & input {
                 height: 20px;
