@@ -1,14 +1,13 @@
 <template>
-    <header>
-        <div class="logo">
-        <div class="title">
-            Virtual<br>
-            Showcase
-        </div>
-        </div>
-        <div class="actions">
-        </div>
-    </header>
+  <header>
+    <div class="logo">
+      <div class="title">
+        Virtual<br />
+        Showcase
+      </div>
+    </div>
+    <div class="actions"></div>
+  </header>
 </template>
 
 <script>

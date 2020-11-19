@@ -1,12 +1,12 @@
 <template>
-    <div class="background">
-        <div
-            v-for="(gradient, color) in colors"
-            :key="color"
-            :style="{ background: gradient }"
-            :class="{ active: active == color }">
-        </div>
-    </div>
+  <div class="background">
+    <div
+      v-for="(gradient, color) in colors"
+      :key="color"
+      :style="{ background: gradient }"
+      :class="{ active: active == color }"
+    ></div>
+  </div>
 </template>
 
 <script>

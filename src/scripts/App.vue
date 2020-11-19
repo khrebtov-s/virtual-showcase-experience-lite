@@ -1,9 +1,9 @@
 <template>
-    <div class="app">
-        <app-header class="header"></app-header>
-        <background></background>
-        <Form></Form>
-    </div>
+  <div class="app">
+    <app-header class="header"></app-header>
+    <background></background>
+    <Form></Form>
+  </div>
 </template>
 
 <script>
