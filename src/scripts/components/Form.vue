@@ -175,7 +175,7 @@ export default {
             font-weight: 300;
 
             @media screen and (min-width: 1200px) {
-              font-size: 33px;
+              font-size: 43px;
             }
 
             @media screen and (min-width: 1064px) and (max-width: 1200px) {
@@ -257,6 +257,7 @@ export default {
               margin-top: 2rem;
               text-transform: uppercase;
               font-weight: 600;
+              cursor: pointer;
 
               &:focus {
                 outline: none;
