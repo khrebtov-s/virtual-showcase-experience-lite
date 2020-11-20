@@ -1,0 +1,10 @@
+import script from 'script:./AppButton.vue';
+import {render} from 'template:./AppButton.vue';
+script.render = render;
+import cssModules from 'style:./AppButton.vue';
+script.__cssModules = cssModules;
+
+script.__scopeId = 'data-v-c3865b';
+script.__file = `/Users/khrebtov/Practice/virtual-showcase-experience-lite/src/scripts/components/AppButton.vue`;
+
+export default script;

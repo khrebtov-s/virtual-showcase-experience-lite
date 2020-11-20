@@ -2,9 +2,7 @@
   "name": "virtual-showcase-experience",
   "version": "0.0.1",
   "scripts": {
-    "dev": "WORKER_THREADS=1 parcel src/index.html --no-hmr",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "WORKER_THREADS=1 parcel src/index.html --no-hmr"
   },
   "author": "innov8ight",
   "license": "UNLICENSED",

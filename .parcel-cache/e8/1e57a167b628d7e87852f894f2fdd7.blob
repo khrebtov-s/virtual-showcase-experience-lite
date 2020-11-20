@@ -1,0 +1,14 @@
+
+.background div[data-v-345f0d] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity 3s;
+  opacity: 0;
+}
+.background div.active[data-v-345f0d] {
+  opacity: 1;
+}

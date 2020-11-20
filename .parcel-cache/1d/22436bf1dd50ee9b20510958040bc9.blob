@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.content-wrapper[data-v-494196] {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+.content-wrapper section[data-v-494196] {
+  width: 100%;
+  margin-top: 60px;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+.content-wrapper section .container[data-v-494196] {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 auto;
+  position: relative;
+  max-width: 40%;
+  margin: 0 auto;
+}
+.content-wrapper section .container .auth[data-v-494196] {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 968px;
+  align-items: center;
+}
+.content-wrapper section .container .auth__banner[data-v-494196] {
+  margin: 5rem auto 2rem;
+  text-align: center;
+}
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+  color: #000;
+  font-size: 35px;
+  font-weight: 300;
+}
+@media screen and (min-width: 1200px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 43px;
+}
+}
+@media screen and (min-width: 1064px) and (max-width: 1200px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 31px;
+}
+}
+@media screen and (max-width: 1064px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 28px;
+}
+}
+@media screen and (max-width: 950px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 25px;
+}
+}
+.content-wrapper section .container .auth__form[data-v-494196] {
+  display: contents;
+}
+.content-wrapper section .container .auth__form form[data-v-494196] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-wrapper section .container .auth__form form .row[data-v-494196] {
+  margin: 5px auto;
+  width: 100%;
+  display: flex;
+}
+.content-wrapper section .container .auth__form form .row input[data-v-494196] {
+  height: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+.content-wrapper section .container .auth__form form .row input.is-invalid[data-v-494196] {
+  border: 1px solid tomato;
+  font-size: 11px;
+}
+.content-wrapper section .container .auth__form form .row input[data-v-494196]:focus {
+  outline: none;
+}
+.content-wrapper section .container .auth__form form .row input[data-v-494196]:nth-child(2n) {
+  margin-left: 10px;
+}
+.content-wrapper section .container .auth__form form .error-messages ul li[data-v-494196] {
+  list-style: none;
+  color: tomato;
+}
+.content-wrapper section .container .auth__form form .small-text[data-v-494196] {
+  font-size: 9px;
+  margin-top: 10px;
+  color: #000;
+  font-weight: 200;
+}
+@media screen and (min-width: 1200px) {
+.content-wrapper section .container .auth__form form .small-text[data-v-494196] {
+    font-size: 12px;
+}
+}
+.content-wrapper section .container .auth__form form .button_wrapp button[data-v-494196] {
+  border: none;
+  background: #363231;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  height: 40px;
+  width: 130px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.content-wrapper section .container .auth__form form .button_wrapp button[data-v-494196]:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=Form.vue.map */

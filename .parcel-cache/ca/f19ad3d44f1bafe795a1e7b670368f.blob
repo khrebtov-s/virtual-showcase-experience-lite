@@ -1,0 +1,19 @@
+
+const colors = {
+  blue: { background: "#00ADEF", text: "#fff" },
+};
+
+export default {
+  props: {
+    color: { type: String, default: "blue" },
+  },
+
+  computed: {
+    style() {
+      return {
+        background: colors[this.color].background,
+        color: colors[this.color].text,
+      };
+    },
+  },
+};

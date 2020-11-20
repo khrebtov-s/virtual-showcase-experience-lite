@@ -1,0 +1,30 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.render = void 0;
+
+var _vue = require("vue");
+
+const _withId = /*#__PURE__*/(0, _vue.withScopeId)("data-v-bfbc7f");
+
+(0, _vue.pushScopeId)("data-v-bfbc7f");
+const _hoisted_1 = {
+  class: "app"
+};
+(0, _vue.popScopeId)();
+
+const render = /*#__PURE__*/_withId(function render(_ctx, _cache) {
+  const _component_app_header = (0, _vue.resolveComponent)("app-header");
+
+  const _component_background = (0, _vue.resolveComponent)("background");
+
+  const _component_Form = (0, _vue.resolveComponent)("Form");
+
+  return (0, _vue.openBlock)(), (0, _vue.createBlock)("div", _hoisted_1, [(0, _vue.createVNode)(_component_app_header, {
+    class: "header"
+  }), (0, _vue.createVNode)(_component_background), (0, _vue.createVNode)(_component_Form)]);
+});
+
+exports.render = render;

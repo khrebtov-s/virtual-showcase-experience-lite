@@ -1,0 +1,10 @@
+import script from 'script:./AppHeader.vue';
+import {render} from 'template:./AppHeader.vue';
+script.render = render;
+import cssModules from 'style:./AppHeader.vue';
+script.__cssModules = cssModules;
+
+script.__scopeId = 'data-v-0f843d';
+script.__file = `/Users/khrebtov/Practice/virtual-showcase-experience-lite/src/scripts/components/AppHeader.vue`;
+
+export default script;

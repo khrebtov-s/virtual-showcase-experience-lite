@@ -175,7 +175,7 @@ export default {
             font-weight: 300;
 
             @media screen and (min-width: 1200px) {
-              font-size: 43px;
+              font-size: 40px;
             }
 
             @media screen and (min-width: 1064px) and (max-width: 1200px) {

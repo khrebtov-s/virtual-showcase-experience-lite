@@ -1,0 +1,30 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.render = void 0;
+
+var _vue = require("vue");
+
+const _withId = /*#__PURE__*/(0, _vue.withScopeId)("data-v-0f843d");
+
+(0, _vue.pushScopeId)("data-v-0f843d");
+
+const _hoisted_1 = /*#__PURE__*/(0, _vue.createVNode)("div", {
+  class: "logo"
+}, [/*#__PURE__*/(0, _vue.createVNode)("div", {
+  class: "title"
+}, [/*#__PURE__*/(0, _vue.createTextVNode)(" Virtual"), /*#__PURE__*/(0, _vue.createVNode)("br"), /*#__PURE__*/(0, _vue.createTextVNode)(" Showcase ")])], -1);
+
+const _hoisted_2 = /*#__PURE__*/(0, _vue.createVNode)("div", {
+  class: "actions"
+}, null, -1);
+
+(0, _vue.popScopeId)();
+
+const render = /*#__PURE__*/_withId(function render(_ctx, _cache) {
+  return (0, _vue.openBlock)(), (0, _vue.createBlock)("header", null, [_hoisted_1, _hoisted_2]);
+});
+
+exports.render = render;

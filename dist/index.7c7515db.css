@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: normal;
+    font-style: normal;
+    src: local("Segoe UI"),
+        url("SegoeUI.6d1ea899.eot?#iefix") format("embedded-opentype"),
+        url("SegoeUI.060f080a.woff2") format("woff2"),
+        url("SegoeUI.bcac926a.woff") format("woff"),
+        url("SegoeUI.26b000be.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    src: local("Segoe UI Semilight"),
+        url("SegoeUI-Semilight.b3f7e5c3.eot?#iefix") format("embedded-opentype"),
+        url("SegoeUI-Semilight.31759151.woff2") format("woff2"),
+        url("SegoeUI-Semilight.59502290.woff") format("woff"),
+        url("SegoeUI-Semilight.76e07400.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    src: local('Segoe UI Bold'),
+        url("SegoeUI-Bold.83877718.eot?#iefix") format("embedded-opentype"),
+        url("SegoeUI-Bold.cc49a1ae.woff2") format("woff2"),
+        url("SegoeUI-Bold.7c6245eb.woff") format("woff"),
+        url("SegoeUI-Bold.8542fd8a.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    src: local("Segoe UI Semibold"),
+        url("SegoeUI-Semibold.e93c7682.eot?#iefix") format("embedded-opentype"),
+        url("SegoeUI-Semibold.c2a35755.woff2") format("woff2"),
+        url("SegoeUI-Semibold.a07fcf77.woff") format("woff"),
+        url("SegoeUI-Semibold.8da3b73b.ttf") format("truetype"); 
+}
+
+/*# sourceMappingURL=index.7c7515db.css.map */

@@ -1,0 +1,120 @@
+import { createVNode as _createVNode, createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createBlock as _createBlock, toDisplayString as _toDisplayString, withCtx as _withCtx, withScopeId as _withScopeId, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from "vue"
+const _withId = /*#__PURE__*/_withScopeId("data-v-494196")
+
+_pushScopeId("data-v-494196")
+const _hoisted_1 = { class: "content-wrapper" }
+const _hoisted_2 = { class: "container" }
+const _hoisted_3 = { class: "auth" }
+const _hoisted_4 = /*#__PURE__*/_createVNode("div", { class: "auth__banner" }, [
+  /*#__PURE__*/_createVNode("span", null, [
+    /*#__PURE__*/_createTextVNode("Find the "),
+    /*#__PURE__*/_createVNode("strong", null, "best solution"),
+    /*#__PURE__*/_createTextVNode(" to building a resilent work place.")
+  ])
+], -1)
+const _hoisted_5 = { class: "auth__form" }
+const _hoisted_6 = { class: "row" }
+const _hoisted_7 = { class: "row" }
+const _hoisted_8 = { class: "row" }
+const _hoisted_9 = { class: "row" }
+const _hoisted_10 = { class: "row" }
+const _hoisted_11 = { class: "error-messages" }
+const _hoisted_12 = /*#__PURE__*/_createVNode("div", { class: "small-text" }, " *By clicking on the \"Proceed\" button, I consent to the processing of personal data (wich will not be transfered to third parties) ", -1)
+const _hoisted_13 = /*#__PURE__*/_createVNode("div", { class: "button_wrapp" }, [
+  /*#__PURE__*/_createVNode("button", { type: "submit" }, "Proceed")
+], -1)
+_popScopeId()
+
+export const render = /*#__PURE__*/_withId(function render(_ctx, _cache) {
+  const _component_Field = _resolveComponent("Field")
+  const _component_Form = _resolveComponent("Form")
+
+  return (_openBlock(), _createBlock("div", _hoisted_1, [
+    _createVNode("section", null, [
+      _createVNode("div", _hoisted_2, [
+        _createVNode("div", _hoisted_3, [
+          _hoisted_4,
+          _createVNode("div", _hoisted_5, [
+            _createVNode(_component_Form, {
+              onSubmit: _ctx.submit,
+              "validation-schema": _ctx.schema
+            }, {
+              default: _withId(({ errors }) => [
+                _createVNode("div", _hoisted_6, [
+                  _createVNode(_component_Field, {
+                    name: "firstName",
+                    placeholder: "First Name",
+                    type: "text",
+                    class: { 'is-invalid': errors.firstName }
+                  }, null, 8, ["class"]),
+                  _createVNode(_component_Field, {
+                    name: "lastName",
+                    placeholder: "Last Name",
+                    type: "text",
+                    class: { 'is-invalid': errors.lastName }
+                  }, null, 8, ["class"])
+                ]),
+                _createVNode("div", _hoisted_7, [
+                  _createVNode(_component_Field, {
+                    name: "email",
+                    placeholder: "Email",
+                    type: "email",
+                    class: { 'is-invalid': errors.email }
+                  }, null, 8, ["class"])
+                ]),
+                _createVNode("div", _hoisted_8, [
+                  _createVNode(_component_Field, {
+                    name: "companyName",
+                    placeholder: "Company Name",
+                    type: "text",
+                    class: { 'is-invalid': errors.companyName }
+                  }, null, 8, ["class"]),
+                  _createVNode(_component_Field, {
+                    name: "companySize",
+                    placeholder: "Company Size",
+                    type: "text",
+                    class: { 'is-invalid': errors.companySize }
+                  }, null, 8, ["class"])
+                ]),
+                _createVNode("div", _hoisted_9, [
+                  _createVNode(_component_Field, {
+                    name: "jobRoll",
+                    placeholder: "Job Roll",
+                    type: "text",
+                    class: { 'is-invalid': errors.jobRoll }
+                  }, null, 8, ["class"])
+                ]),
+                _createVNode("div", _hoisted_10, [
+                  _createVNode(_component_Field, {
+                    name: "phone",
+                    placeholder: "Phone",
+                    type: "text",
+                    class: { 'is-invalid': errors.phone }
+                  }, null, 8, ["class"]),
+                  _createVNode(_component_Field, {
+                    name: "country",
+                    placeholder: "Country Region",
+                    type: "text",
+                    class: { 'is-invalid': errors.country }
+                  }, null, 8, ["class"])
+                ]),
+                _createVNode("div", _hoisted_11, [
+                  _createVNode("ul", null, [
+                    (_openBlock(true), _createBlock(_Fragment, null, _renderList(errors, (error) => {
+                      return (_openBlock(), _createBlock("li", {
+                        key: `${error}-1`
+                      }, _toDisplayString(error), 1))
+                    }), 128 /* KEYED_FRAGMENT */))
+                  ])
+                ]),
+                _hoisted_12,
+                _hoisted_13
+              ]),
+              _: 1
+            }, 8, ["onSubmit", "validation-schema"])
+          ])
+        ])
+      ])
+    ])
+  ]))
+})

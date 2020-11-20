@@ -1,0 +1,307 @@
+
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    scroll-behavior: smooth;
+}
+
+b {
+    font-weight: 600;
+}
+
+button {
+    font-family: 'Segoe UI';
+    cursor: pointer;
+}
+
+#app {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+#render {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    touch-action: none;
+}
+
+.full-screen-shift {
+    transition: 0.5s transform;
+}
+
+.full-screen-shift-horizontal {
+    transform: translateY(-100%);
+}
+
+.full-screen-shift-vertical {
+    transform: translateX(320px);
+}
+
+#render:focus {
+    outline: none;
+}
+
+#scene-explorer-host {
+    z-index: 100;
+}
+
+.color-picker {
+  display: flex;
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.color-picker button {
+  position: relative;
+  margin: 4px;
+  width: 42px;
+  height: 42px;
+  border: 3.5px solid #ddd;
+  border-radius: 50%;
+}
+
+.color-picker button[data-selected]::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2.5px solid white;
+  border-radius: 50%;
+}
+
+
+a[data-v-c3865b] {
+  display: block;
+  width: 130px;
+  height: 40px;
+  padding: 9px 0 0;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  border-radius: none;
+  font-family: "Segoe UI";
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header[data-v-0f843d] {
+  display: flex;
+  height: 60px;
+  padding: 0 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo[data-v-0f843d] {
+  display: flex;
+  align-items: center;
+}
+.logo img[data-v-0f843d] {
+  width: 98px;
+  height: 28.14px;
+}
+.logo .title[data-v-0f843d] {
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #78787a;
+  border-left: 1px solid #78787a;
+}
+
+/*# sourceMappingURL=AppHeader.vue.map */
+
+.background div[data-v-345f0d] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity 3s;
+  opacity: 0;
+}
+.background div.active[data-v-345f0d] {
+  opacity: 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.content-wrapper[data-v-494196] {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+.content-wrapper section[data-v-494196] {
+  width: 100%;
+  margin-top: 60px;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+}
+.content-wrapper section .container[data-v-494196] {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 auto;
+  position: relative;
+  max-width: 40%;
+  margin: 0 auto;
+}
+.content-wrapper section .container .auth[data-v-494196] {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 968px;
+  align-items: center;
+}
+.content-wrapper section .container .auth__banner[data-v-494196] {
+  margin: 5rem auto 2rem;
+  text-align: center;
+}
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+  color: #000;
+  font-size: 35px;
+  font-weight: 300;
+}
+@media screen and (min-width: 1361px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 38px;
+}
+}
+@media screen and (min-width: 1201px) and (max-width: 1360px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 35px;
+}
+}
+@media screen and (min-width: 1064px) and (max-width: 1200px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 31px;
+}
+}
+@media screen and (max-width: 1064px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 28px;
+}
+}
+@media screen and (max-width: 950px) {
+.content-wrapper section .container .auth__banner span[data-v-494196] {
+    font-size: 25px;
+}
+}
+.content-wrapper section .container .auth__form[data-v-494196] {
+  display: contents;
+}
+.content-wrapper section .container .auth__form form[data-v-494196] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-wrapper section .container .auth__form form .row[data-v-494196] {
+  margin: 5px auto;
+  width: 100%;
+  display: flex;
+}
+.content-wrapper section .container .auth__form form .row input[data-v-494196] {
+  height: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+.content-wrapper section .container .auth__form form .row input.is-invalid[data-v-494196] {
+  border: 1px solid tomato;
+  font-size: 11px;
+}
+.content-wrapper section .container .auth__form form .row input[data-v-494196]:focus {
+  outline: none;
+}
+.content-wrapper section .container .auth__form form .row input[data-v-494196]:nth-child(2n) {
+  margin-left: 10px;
+}
+.content-wrapper section .container .auth__form form .error-messages ul li[data-v-494196] {
+  list-style: none;
+  color: tomato;
+}
+.content-wrapper section .container .auth__form form .small-text[data-v-494196] {
+  font-size: 9px;
+  margin-top: 10px;
+  color: #000;
+  font-weight: 200;
+}
+@media screen and (min-width: 1200px) {
+.content-wrapper section .container .auth__form form .small-text[data-v-494196] {
+    font-size: 12px;
+}
+}
+.content-wrapper section .container .auth__form form .button_wrapp button[data-v-494196] {
+  border: none;
+  background: #363231;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  height: 40px;
+  width: 130px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.content-wrapper section .container .auth__form form .button_wrapp button[data-v-494196]:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=Form.vue.map */
+.app[data-v-bfbc7f] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.header[data-v-bfbc7f] {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  background: white;
+  z-index: 10;
+}
+.reveal[data-v-bfbc7f] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.carousel[data-v-bfbc7f] {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 100%;
+}
+
+/*# sourceMappingURL=App.vue.map */
+/*# sourceMappingURL=index.HASH_REF_7e1bee3325fc425cb56e7b6ad6a8c66f.css.map */

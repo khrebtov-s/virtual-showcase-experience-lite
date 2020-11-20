@@ -1,0 +1,21 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _AppButton = _interopRequireDefault(require("script:./AppButton.vue"));
+
+var _AppButton2 = require("template:./AppButton.vue");
+
+var _AppButton3 = _interopRequireDefault(require("style:./AppButton.vue"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_AppButton.default.render = _AppButton2.render;
+_AppButton.default.__cssModules = _AppButton3.default;
+_AppButton.default.__scopeId = 'data-v-c3865b';
+_AppButton.default.__file = `/Users/khrebtov/Practice/virtual-showcase-experience-lite/src/scripts/components/AppButton.vue`;
+var _default = _AppButton.default;
+exports.default = _default;

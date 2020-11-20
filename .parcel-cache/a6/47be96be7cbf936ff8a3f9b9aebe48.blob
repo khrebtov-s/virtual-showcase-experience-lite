@@ -1,0 +1,27 @@
+header[data-v-0f843d] {
+  display: flex;
+  height: 60px;
+  padding: 0 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo[data-v-0f843d] {
+  display: flex;
+  align-items: center;
+}
+.logo img[data-v-0f843d] {
+  width: 98px;
+  height: 28.14px;
+}
+.logo .title[data-v-0f843d] {
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #78787a;
+  border-left: 1px solid #78787a;
+}
+
+/*# sourceMappingURL=AppHeader.vue.map */

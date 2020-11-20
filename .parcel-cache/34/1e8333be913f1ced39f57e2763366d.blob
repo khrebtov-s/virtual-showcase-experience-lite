@@ -1,0 +1,31 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _bus = _interopRequireDefault(require("../helpers/bus"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = {
+  data() {
+    return {
+      active: "gray",
+      colors: {
+        red: "linear-gradient(#f2a383, #F16731)",
+        green: "linear-gradient(#c7e0a6, #8fc649)",
+        blue: "linear-gradient(#c1ebfe, #1EAFEE)",
+        yellow: "linear-gradient(#fff0cc, #fec131)",
+        gray: "linear-gradient(#e0e0e0, #a0a0a0)"
+      }
+    };
+  },
+
+  mounted() {
+    _bus.default.on("background", color => this.active = color);
+  }
+
+};
+exports.default = _default;

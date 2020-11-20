@@ -1,0 +1,21 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _App = _interopRequireDefault(require("script:./App.vue"));
+
+var _App2 = require("template:./App.vue");
+
+var _App3 = _interopRequireDefault(require("style:./App.vue"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+_App.default.render = _App2.render;
+_App.default.__cssModules = _App3.default;
+_App.default.__scopeId = 'data-v-bfbc7f';
+_App.default.__file = `/Users/khrebtov/Practice/virtual-showcase-experience-lite/src/scripts/App.vue`;
+var _default = _App.default;
+exports.default = _default;

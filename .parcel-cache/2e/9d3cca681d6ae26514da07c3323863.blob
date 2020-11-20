@@ -1,0 +1,10 @@
+import script from 'script:./Background.vue';
+import {render} from 'template:./Background.vue';
+script.render = render;
+import cssModules from 'style:./Background.vue';
+script.__cssModules = cssModules;
+
+script.__scopeId = 'data-v-345f0d';
+script.__file = `/Users/khrebtov/Practice/virtual-showcase-experience-lite/src/scripts/components/Background.vue`;
+
+export default script;
