@@ -1,5 +1,0 @@
-
-import {render} from 'template:./AppHeader.vue';
-let cssModules = {};
-
-export default cssModules;

@@ -1,5 +1,0 @@
-
-import {render} from 'template:./Background.vue';
-let cssModules = {};
-
-export default cssModules;
